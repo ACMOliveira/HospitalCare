@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class AdministracaoMedicacao {
 	
-	  private PreparacaoMedicacao preparacao;
+		private PreparacaoMedicacao preparacao;
 	    private Enfermeiro enfermeiro;
 	     
 	    private Date data_hora;

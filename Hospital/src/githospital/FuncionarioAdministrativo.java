@@ -1,13 +1,24 @@
 package githospital;
 
 public class FuncionarioAdministrativo {
-
-	private String nome;
-
-	public FuncionarioAdministrativo(String nome) {
+	 private int codigo;
+	 private String nome;
+	 
+	 public FuncionarioAdministrativo(int codigo, String nome) {
 		super();
+		this.codigo = codigo;
 		this.nome = nome;
 	}
+
+	
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
 
 	public String getNome() {
 		return nome;
@@ -19,3 +30,4 @@ public class FuncionarioAdministrativo {
 	
 }
 
+// atualizar colocando o código
